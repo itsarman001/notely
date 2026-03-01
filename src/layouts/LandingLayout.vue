@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import LandingPage from '@/components/landing/LandingIndex.vue'
+import LandingIndex from '@/components/landing/Index.vue'
 import LandingHeader from '@/components/landing/layout/LandingHeader.vue'
 import LandingFooter from '@/components/landing/layout/LandingFooter.vue'
 </script>
@@ -7,9 +7,7 @@ import LandingFooter from '@/components/landing/layout/LandingFooter.vue'
 <template>
   <div class="min-h-screen px-6 flex items-center flex-col bg-background text-foreground">
     <LandingHeader />
-    <main class="flex-1">
-      <LandingPage />
-    </main>
+    <LandingIndex />
     <LandingFooter />
   </div>
 </template>
