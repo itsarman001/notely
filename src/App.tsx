@@ -1,9 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { AppLayout } from "@/components/layout/app-layout";
 
 export default function App() {
-  return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button variant="outline">Hello, Notely!</Button>
-    </div>
-  );
+  return <AppLayout />;
 }
