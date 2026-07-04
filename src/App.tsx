@@ -1,5 +1,5 @@
-import { AppLayout } from "@/components/layout/app-layout";
+
 
 export default function App() {
-  return <AppLayout />;
+  return <h1>Hello, World!</h1>;
 }
